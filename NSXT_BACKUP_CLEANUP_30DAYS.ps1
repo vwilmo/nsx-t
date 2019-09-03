@@ -1,5 +1,5 @@
 # This Powershell script is used for cleaning up NSX-T Manager Backups
-# Delete all Files in C:\temp older than 30 day(s)
+# Delete all Files in C:\temp older than $Daysback day(s)
 $Path = "C:\ftproot\nsxt"
 $Daysback = "-30"
  
